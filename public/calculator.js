@@ -155,15 +155,3 @@ function displayEmoji(res) {
         document.getElementById("emoji").src = "https://images.vexels.com/media/users/3/134603/isolated/lists/2dd101be195b2560fd452658bbdb259f-in-love-emoji-emoticon.png";
     }
 }
-
-// "NICE" button
-function niceResult() {
-    document.getElementById("a1Percentage").innerHTML = "100%"
-    document.getElementById("a2Percentage").innerHTML = "100%"
-    document.getElementById("a3Percentage").innerHTML = "100%"
-    document.getElementById("a4Percentage").innerHTML = "100%"
-    document.getElementById("result").innerHTML = "100/100";
-    updateHistory(100);
-    displayEmoji(100);
-}
-
